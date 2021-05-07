@@ -1,5 +1,3 @@
-import react from 'react';
-
 import { PageContainer } from '../../components/MainComponents';
 import { NotFoundArea } from './styled';
 
