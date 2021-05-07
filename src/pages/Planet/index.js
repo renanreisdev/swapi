@@ -92,7 +92,7 @@ export default function Planet() {
                                                 peopleList.map((i, k) =>
                                                     planetList.residents.map((j, key) =>
                                                         compare(i, j) &&
-                                                        <Link key={k + 1} to={`/planet/${i.url.replace('http://swapi.dev/api/planets/', '')}`}> <span> {i.name ? '(' + i.name + ')' : 'n/a'}</span></Link>
+                                                        <Link key={k + 1} to={`/people/${i.url.replace('http://swapi.dev/api/people/', '')}`}> <span> {i.name ? '(' + i.name + ')' : 'n/a'}</span></Link>
                                                     ))
                                             }
                                         </>
