@@ -32,5 +32,16 @@ export const FilmsArea = styled.div`
 
             box-shadow: 0px 0px 7px #4e4e4e;
         }
+
+        @media (max-width: 750px) {
+            width: 80%;
+        }
+
+        @media (max-width: 540px) {
+            width: 100%;
+            height: 4rem;
+            margin: 0.35rem 0;
+            font-size: 1.3rem;
+        }
     }
 `;

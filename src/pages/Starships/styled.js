@@ -38,6 +38,16 @@ export const StarshipsArea = styled.div`
 
             box-shadow: 0px 0px 7px #4e4e4e;
         }
+    
+        @media (max-width: 750px) {
+            font-size: 1.4rem;
+        }
+
+        @media (max-width: 540px) {
+            width: 100%;
+            height: 4rem;
+            margin: 0.35rem 0;
+        }
     }
 
     .buttonPrevious,
@@ -51,6 +61,10 @@ export const StarshipsArea = styled.div`
             background-color: #0a0a0a;
             color: #fff;
             box-shadow: 0px 0px 7px #181818;
+        }
+
+        @media (max-width: 540px) {
+            width: 47%;
         }
     }
 

@@ -8,7 +8,7 @@
 
 html, body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(#000000 15%, #03011a 100%);
     color: #fff;
     font-family: 'Zen Dots', Arial, Helvetica, sans-serif;

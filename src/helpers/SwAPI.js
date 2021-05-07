@@ -1,20 +1,5 @@
 const BASEAPI = 'https://swapi.dev/api';
 
-const apiFetchPost = async (endpoint, body) => {
-    const res = await fetch(BASEAPI + endpoint, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(body)
-    });
-
-    const json = await res.json();
-
-    return json;
-}
-
 const apiFetchGet = async (endpoint) => {
     const response = await fetch(BASEAPI + endpoint);
 

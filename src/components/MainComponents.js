@@ -45,19 +45,18 @@ export const Template = styled.div`
         z-index: 0;
     }
 
-@keyframes anim-stars {
-    from {
-        transform: translateY(0px);
+    @keyframes anim-stars {
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(-150px);
+        }
     }
-    to {
-        transform: translateY(-150px);
-    }
-}
 `;
 
 export const PageContainer = styled.div`
     max-width: 1280px;
-    height: calc(100vh - 250px);
     margin: auto;
     padding: 0 2%;
 `;

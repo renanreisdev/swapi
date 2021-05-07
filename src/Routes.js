@@ -42,16 +42,16 @@ export default () => {
                 <Planets />
             </Route>
 
+            <Route exact path="/planet/:id">
+                <Planet />
+            </Route>
+
             <Route exact path="/species/:page">
                 <Species />
             </Route>
 
             <Route exact path="/specie/:id">
                 <Specie />
-            </Route>
-
-            <Route exact path="/planet/:id">
-                <Planet />
             </Route>
 
             <Route exact path="/starships/:page">

@@ -8,12 +8,21 @@ const Header = () => {
     return (
         <HeaderArea>
             <div className="container">
-                <Link to="/">
-                    <div className="logo">
-                        <img src={logo} alt="logo" />
-                    </div>
-                </Link>
                 <nav>
+
+                    <div className="menu-mobile">
+                        <div className="line"></div>
+                        <div className="line"></div>
+                        <div className="line"></div>
+                    </div>
+
+                    <Link to="/">
+                        <div className="logo">
+                            <img src={logo} alt="logo" />
+                        </div>
+                    </Link>
+
+
                     <ul>
                         <li><Link to="/films">Films</Link></li>
                         <li><Link to="/characters/1">People</Link></li>
